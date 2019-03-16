@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffff">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="128dp"
+                android:text=""
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="-131dp"
+                android:text="Elke school heeft een schoolgids. Hierin staat voor ouders veel praktische en belangrijke informatie over het schooljaar. Aan het begin van elk schooljaar krijgen ouders van de school de nieuwe schoolgids.
+                 Vaak staat de schoolgids en aanvullende informatie ook op de website van de school. "
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:text="OUDERS
+                Via de medezeggenschapsraad praten ouders mee over het beleid van de school. De medezeggenschapsraad heeft instemmingsrecht op de vaststelling van de schoolgids. De medezeggenschapsraad praat daarnaast inhoudelijk mee over vrijwel alle onderwerpen die staan vermeld in de schoolgids. De medezeggenschapsraad speelt dus een belangrijke rol."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_marginTop="26dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:text="Supervisie
+    De uitvoeringsfase, een  belangrijke fase, vraagt om  professionele en kundige begeleiding. SRENNIW zal  het project binnen de afgesproken tijd en het beschikbare budget conform de voorges- chreven kwaliteitseisen opleveren."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:layout_below="@id/textView3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="42dp"
+                android:layout_alignParentLeft="true"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

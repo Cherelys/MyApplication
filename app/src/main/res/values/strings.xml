@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    //fragment
+    <string name="formulier">Formulier</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="ocra">OCRA</string>
+    <string name="info_ocra_com">info@ocra.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_name">app_name</string>
+    <string name="info_fragment">Info Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+
+
+    //Fragment_Formulier
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="phone">Phone</string>
+    <string name="birthday">Birthday</string>
+    <string name="gender">Gender</string>
+    <string-array name="spinner_gender">
+        <item>man</item>
+        <item>female</item>
+    </string-array>
+    <string name="birthplace">Birtplace</string>
+    <string name="email">Email</string>
+    <string name="previous_education">Previous Education</string>
+    <string-array name="spinner_previous_education">
+        <item>Natin-mbo</item>
+        <item>HAVO</item>
+    </string-array>
+    <string name="major">Major</string>
+    <string name="school">School</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="logo">logo</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="not_registered">not_registered</string>
+    <string name="register">register</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="already_registered">already_registered</string>
+
+</resources>

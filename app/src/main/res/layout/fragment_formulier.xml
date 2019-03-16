@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F8F5F5">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="127dp"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/deze2" />
+
+            <EditText
+                android:id="@+id/edittext_firstname"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:hint="@string/firstname"
+                android:paddingStart="2dp"
+                android:paddingLeft="2dp"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/edittext_lastname"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:hint="@string/lastname"
+                android:paddingLeft="2dp"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/edittext_phone"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:hint="@string/phone"
+                android:paddingStart="2dp"
+                android:paddingLeft="2dp"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/edittext_birthday"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:hint="@string/birthday"
+                android:paddingLeft="2dp"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <Spinner
+                android:id="@+id/spinner_gender"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:entries="@array/spinner_gender"
+                android:paddingLeft="2dp"
+                android:text="@string/gender"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/edittext_birthplace"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:hint="@string/birthplace"
+                android:paddingLeft="2dp"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/edittext_email"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:hint="@string/email"
+                android:paddingLeft="2dp" />
+
+            <Spinner
+                android:id="@+id/spinner_previous_educatoin"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:entries="@array/spinner_previous_education"
+                android:hint="@string/previous_education"
+                android:paddingLeft="2dp" />
+
+
+            <EditText
+                android:id="@+id/edittext_major"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:hint="@string/major"
+                android:paddingLeft="2dp" />
+
+            <EditText
+                android:id="@+id/edittext_school"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:hint="@string/school"
+                android:paddingStart="2dp"
+                android:paddingLeft="2dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/submit_form"
+                    android:layout_width="206dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#26d7ce"
+                    android:text="@string/submit"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/cancel_form"
+                    android:layout_width="206dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#26d7ce"
+                    android:text="@string/cancel"
+                    android:textColor="#ffffff"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
